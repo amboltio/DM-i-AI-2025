@@ -1,0 +1,20 @@
+# Core ML libraries (pre-compiled wheels)
+torch>=2.0.0
+transformers>=4.35.0
+sentence-transformers>=2.2.2
+scikit-learn>=1.3.0
+numpy>=1.24.0
+
+# Data processing
+tqdm>=4.66.0
+datasets>=2.14.0
+accelerate>=0.24.0
+
+# API framework
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.0
+loguru==0.7.2
+
+# Text processing (avoid regex that requires Rust)
+# regex>=2023.0.0  # Commented out - use re module instead 
